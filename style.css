@@ -9,23 +9,37 @@ body {
   animation-fill-mode: both;
 }
 
-h1 {
+.halaman {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.judul {
   text-align: center;
   color: #222;
   margin-bottom: 20px;
   animation: fadeIn 1.5s ease-in-out;
 }
 
-nav,
-p,
-img,
-table,
+.menu,
+.sambut,
+.foto,
+#nama-saya,
+#judul-profil,
+#judul-project,
+#judul-kontak,
+#judul-skill,
 ul,
 ol,
+p,
+img,
 form,
 input,
 textarea,
-select {
+select,
+.kotak-skill,
+.tabel-data,
+.tabel-kontak {
   animation: fadeIn 1.3s ease-in-out;
 }
 
@@ -33,22 +47,22 @@ h2, h3, h4 {
   color: #1f1f1f;
 }
 
-nav {
+.menu {
   background: #2f6fed;
   padding: 12px 15px;
   border-radius: 8px;
   margin-bottom: 20px;
 }
 
-nav a {
+.menu a {
   color: #fff;
   text-decoration: none;
   margin-right: 10px;
   font-weight: bold;
 }
 
-nav a:hover {
-  text-decoration: underline;
+.menu a:hover {
+  color:aqua;
   opacity: 0.8;
   transition: 0.3s ease;
 }
@@ -57,11 +71,13 @@ p {
   line-height: 1.6;
 }
 
-img {
+.foto {
   max-width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 15px;
+  border:5px solid #2f6fed;
   margin: 10px 0;
+  padding: 2px;
 }
 
 table {
@@ -119,13 +135,12 @@ form table {
   width: auto;
 }
 
-section {
+.kotak-skill {
   background: rgba(255, 255, 255, 0.9);
   padding: 20px;
   border-radius: 10px;
   margin: 20px 0;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
-  animation: fadeIn 1.2s ease-in-out;
 }
 
 @keyframes fadeIn {

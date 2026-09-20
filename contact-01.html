@@ -3,17 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <title>DAFFA WEBSITE</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <h1>PERSONAL WEBSITE</h1>
-    <p>Selamat datang di website pribadi saya.</p>
-    <nav>
+  <body class="halaman">
+    <h1 class="judul">PERSONAL WEBSITE</h1>
+    <p class="sambut">Selamat datang di website pribadi saya.</p>
+    <nav class="menu">
       <a href="index.html">Home</a> | <a href="about-01.html">About</a> |
-      <a href="project-01.html">Project</a> | <a href="contact-01.html">Contact</a> | <a href="skill-01.html">Skill</a>
+      <a href="project-01.html">Project</a> |
+      <a href="contact-01.html">Contact</a> |
+      <a href="skill-01.html">Skill</a>
     </nav>
     <hr />
-    <h3>Informasi Kontak</h3>
+    <h3 id="judul-kontak">Informasi Kontak</h3>
     <p>
       Jika anda ingin melakukan sebuah ajakan pembuatan project, atau hanya
       sekedar melakukan diskusi bisa melalui form berikut :<br />Atau silahkan
@@ -21,11 +23,12 @@
       <a href="mailto:daffadharma1712@gmail.com">daffadharma1712@gmail.com</a>
     </p>
     <form
+      id="form-kontak"
       action="mailto:daffadharma1712@gmail.com"
       method="post"
       enctype="text/plain"
     >
-      <table border="1" cellpadding="6" cellspacing="0">
+      <table class="tabel-kontak" border="1" cellpadding="6" cellspacing="0">
         <tr>
           <th colspan="2">Form Data Kontak</th>
         </tr>
