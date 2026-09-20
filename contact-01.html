@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DAFFA WEBSITE</title>
+  </head>
+  <body>
+    <h1>PERSONAL WEBSITE</h1>
+    <p>Selamat datang di website pribadi saya.</p>
+    <nav>
+      <a href="profil-01.html">Home</a> | <a href="about-01.html">About</a> |
+      <a href="project-01.html">Project</a> |
+      <a href="contact-01.html">Contact</a>
+    </nav>
+    <hr />
+    <h3>Informasi Kontak</h3>
+    <p>
+      Jika anda ingin melakukan sebuah ajakan pembuatan project, atau hanya
+      sekedar melakukan diskusi bisa melalui form berikut :<br />Atau silahkan
+      kirim ke alamat email berikut:
+      <a href="mailto:daffadharma1712@gmail.com">daffadharma1712@gmail.com</a>
+    </p>
+    <form
+      action="mailto:daffadharma1712@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <table border="1" cellpadding="6" cellspacing="0">
+        <tr>
+          <th colspan="2">Form Data Kontak</th>
+        </tr>
+        <tr>
+          <td><strong>Nama Lengkap:</strong></td>
+          <td><input type="text" name="nama" /></td>
+        </tr>
+        <tr>
+          <td><strong>Email:</strong></td>
+          <td><input type="email" name="email" /></td>
+        </tr>
+        <tr>
+          <td><strong>Nomor Telepon:</strong></td>
+          <td><input type="number" name="telepon" /></td>
+        </tr>
+        <tr>
+          <td><strong>Jenis Kelamin:</strong></td>
+          <td>
+            <input type="radio" name="jenis_kelamin" value="laki-laki" />
+            Laki-laki
+            <input type="radio" name="jenis_kelamin" value="perempuan" />
+            Perempuan
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Tanggal Lahir:</strong></td>
+          <td><input type="date" id="tanggal-lahir" name="tanggal_lahir" /></td>
+        </tr>
+        <tr>
+          <td><strong>Topik Pesan:</strong></td>
+          <td>
+            <select name="topik">
+              <option>Diskusi</option>
+              <option>Kerjasama</option>
+              <option>Komplain</option>
+              <option>Lainnya</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Jenis Pesan:</strong></td>
+          <td>
+            <input type="radio" name="jenis_pesan" value="pertanyaan" />
+            Pertanyaan
+            <input type="radio" name="jenis_pesan" value="saran" /> Saran
+            <input type="radio" name="jenis_pesan" value="lainnya" /> Lainnya
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Pesan:</strong></td>
+          <td><textarea name="pesan" rows="5" cols="40"></textarea></td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <input type="submit" value="Kirim" />
+            <input type="reset" value="Reset" />
+          </td>
+        </tr>
+      </table>
+    </form>
+    <hr />
+    <p>@2026 Daffa Dharma Wibowo Dibuat menggunakan HTML</p>
+  </body>
+</html>
